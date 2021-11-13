@@ -9,10 +9,14 @@
 .banner-overlay {
   position: absolute;
   top: 30%;
-  width: 100%;
-  margin-left: 20px;
+  width: 80%;
+  margin-left: 80px;
 }
 .title {
   font-weight: 800;
   font-size: 30px;
+}
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
 }
