@@ -1,22 +1,38 @@
-.img-fluid {
-  width: 100%;
-}
-.container {
-  max-height: 350px;
-  overflow: hidden;
-  position: relative;
-}
-.banner-overlay {
-  position: absolute;
-  top: 30%;
-  width: 80%;
-  margin-left: 80px;
-}
-.title {
+h1 {
+  text-align: center;
   font-weight: 800;
-  font-size: 30px;
+  font-style: italic;
+  text-shadow: 4px, 4px, #fd7014;
 }
-.content-wrapper {
-  display: flex;
-  flex-wrap: wrap;
+
+.col-md-12 {
+  text-align: center;
+}
+body {
+  color: #fff;
+  overflow: hidden;
+}
+.col-sm-12 {
+  background-color: #222831;
+}
+.button {
+  align-content: center;
+}
+.text-light {
+  background-color: #222831;
+}
+.btn-light {
+  background-color: #393e46;
+  color: #eeeeee;
+}
+#section2 {
+  background-color: #fd7014;
+}
+.text-center {
+  font-weight: 600;
+  font-style: oblique;
+}
+
+body h1 {
+  text-shadow: 2px, 2px, 4px #fd7014;
 }
