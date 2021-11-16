@@ -8,3 +8,5 @@ function akanGenerator (event){
     let date = document.getElementById("date").value;
 
     let gender = document.getElementById("gender").value;
+
+    let dayValue = new Date(date).getDay()
