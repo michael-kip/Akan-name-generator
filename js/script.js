@@ -10,3 +10,7 @@ function akanGenerator (event){
     let gender = document.getElementById("gender").value;
 
     let dayValue = new Date(date).getDay()
+    if(gender=="female"){
+        alert("You were born on" + daysOfWeek[dayValue] + "," + "your Akan name is" + namesOfFemales[dayValue])
+        gender();
+    }
