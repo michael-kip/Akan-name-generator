@@ -15,7 +15,7 @@ function akanGenerator (){
         alert("Error! Invalid gender")
         date.value=""; gender.value="";
     }
-    else if(date=""){
+    else if(date==""){
         alert("Error! Invalid date")
         date.value=""; gender.value=""; 
     }
