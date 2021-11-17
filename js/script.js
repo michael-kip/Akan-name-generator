@@ -11,16 +11,21 @@ function akanGenerator (){
     
     let daysOfWeek = ["Sunday","Monday","Tuesday","Wednesday", "Thursday", "Friday","Saturday"];
 
-    if(date==""||gender==""){
-        alert("Error! Invalid date and gender" )
+    if (gender==""){
+        alert("Error! Invalid gender")
     }
+    else if(date=""){
+        alert("Errir! Invalid date")
+    }
+    
     else if(gender=="female"){
-        alert("You were born on " +  daysOfWeek [dayValue] + "," + "your Akan name is " + ","+ namesOfFemales [dayValue])
+        alert("You were born on " + daysOfWeek[dayValue] + " " + "your Akan name is " + namesOfFemales[dayValue])
+        gender();
         date.value=""; gender.value="";
     }
     else{
-        alert("You were born on " + daysOfWeek [dayValue] + "," + "your Akan name is " +"" + namesOfMales [dayValue])
-        date.value=""; gender.value="";
+        alert("You were born on " + daysOfWeek[dayValue] + "  " + "your Akan name is " + namesOfMales[dayValue])
+        date.value=""; gender.value=""; 
     } 
  
 }
