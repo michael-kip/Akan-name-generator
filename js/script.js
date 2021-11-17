@@ -15,11 +15,11 @@ function akanGenerator (){
         alert("Error! Invalid date and gender" )
     }
     else if(gender=="female"){
-        alert("You were born on" +  daysOfWeek [dayValue] + "," + "your Akan name is" + ","+ namesOfFemales [dayValue])
+        alert("You were born on " +  daysOfWeek [dayValue] + "," + "your Akan name is " + ","+ namesOfFemales [dayValue])
         date.value=""; gender.value="";
     }
     else{
-        alert("You were born on" + daysOfWeek [dayValue] + "," + "your Akan name is" +"" + namesOfMales [dayValue])
+        alert("You were born on " + daysOfWeek [dayValue] + "," + "your Akan name is " +"" + namesOfMales [dayValue])
         date.value=""; gender.value="";
     } 
  
