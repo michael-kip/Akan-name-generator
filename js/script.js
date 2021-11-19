@@ -11,15 +11,9 @@ function akanGenerator (){
     
     let daysOfWeek = ["Sunday","Monday","Tuesday","Wednesday", "Thursday", "Friday","Saturday"];
 
-    if (gender==""){
-        alert("Error! Invalid gender")
-        date.value=""; gender.value="";
+    if(gender==""||date==""){
+        alert("Error! Invalid date and gender")
     }
-    else if(date==""){
-        alert("Error! Invalid date")
-        date.value=""; gender.value=""; 
-    }
-    
     else if(gender=="female"){
         alert("You were born on " + daysOfWeek[dayValue] + " " + "your Akan name is " + namesOfFemales[dayValue])
         gender();
